@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 10
+
+development:
+  <<: *default
+  username: postgres
+  password: 
+  database: immo_rb_new_development
+
+test:
+  <<: *default
+  database: immo_rb_new_test
