@@ -2,8 +2,6 @@ require 'celluloid/autostart'
 require 'net/http'
 require 'uri'
 require 'json'
-require 'byebug'
-require 'fatalistic'
 
 module ImmobilienScout
 	class SearchResultsWorker

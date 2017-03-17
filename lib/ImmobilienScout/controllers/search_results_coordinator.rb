@@ -9,22 +9,21 @@ module ImmobilienScout
 
 		attr_accessor :number_of_workers
 		attr_accessor :finished_workers
-		attr_accessor :listings
 
 		def initialize(search_urls:)
 			@search_urls = search_urls
-			@listings = []
 			@number_of_workers = search_urls.count
 			@finished_workers = 0
 			@finished_condition = Celluloid::Condition.new
 		end
 
 		def execute
+			listings = []
 			search_pool = ImmobilienScout::SearchResultsWorker.pool(size: @search_urls.count)
 			callback_block = lambda do |actor, result, fetched_listings, next_page|
 				@finished_workers += 1
 
-				@listings.push(*fetched_listings) if result == true
+				listings.push(*fetched_listings) if result == true
 
 				if next_page
 					@number_of_workers += 1
@@ -41,7 +40,7 @@ module ImmobilienScout
 			end
 
 			finished_condition.wait
-			insert_new_listings @listings
+			insert_new_listings listings
 		end
 
 		def insert_new_listings(listings)
@@ -57,6 +56,7 @@ module ImmobilienScout
 					inserted_listings.push obj
 				end
 			end
+
 			inserted_listings
 		end
 	end

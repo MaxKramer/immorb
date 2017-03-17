@@ -37,9 +37,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov"
 
   spec.add_dependency "activerecord", "~> 5.0"
-  spec.add_dependency 'fatalistic'
   spec.add_dependency "pg", "~> 0.19"
+  spec.add_dependency 'standalone_migrations'
   spec.add_dependency "nokogiri", "~> 1.7"
   spec.add_dependency "slack-notifier", "~> 2.0.0"
-  spec.add_dependency 'celluloid-pmap'
+  spec.add_dependency 'celluloid'
 end

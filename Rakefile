@@ -1,12 +1,22 @@
-require "bundler/gem_tasks"
-require "rspec/core/rake_task"
+require 'bundler/gem_tasks'
+require 'rspec/core/rake_task'
 require 'immobilienscout'
+require 'standalone_migrations'
 
 RSpec::Core::RakeTask.new(:spec)
 
+ImmobilienScout.configure do |config|
+	config.database_host = 'localhost'
+	config.database_name = 'immobilien_scout_ruby'
+	config.database_username = 'postgres'
+	config.database_password = 'password'
+end
+
+StandaloneMigrations::Tasks.load_tasks
+
 task :default => :run
 
-task :run do
+task :run => :environment do
 	search_urls = [
 		'https://www.immobilienscout24.de/Suche/controller/asyncResults.go?searchUrl=/Suche/S-T/Wohnung-Miete/Umkreissuche/Berlin_2dPrenzlauer_20Berg_20_28Prenzlauer_20Berg_29/-/228407/2513896/-/1276003001054/2/2,00-/40,00-60,00/EURO--700,00/-/-/-/true?saveSearchId=69888420&enteredFrom=saved_search',
 		'https://www.immobilienscout24.de/Suche/controller/asyncResults.go?searchUrl=/Suche/S-T/Wohnung-Miete/Umkreissuche/Berlin_2dPrenzlauer_20Berg_20_28Prenzlauer_20Berg_29/-/228407/2513896/-/1276003001054/2/2,00-/40,00-60,00/EURO--700,00/-/-/-/true?saveSearchId=69888420&enteredFrom=saved_search',

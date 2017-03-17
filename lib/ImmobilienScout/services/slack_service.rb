@@ -3,10 +3,11 @@ require 'slack-notifier'
 module ImmobilienScout
 	class SlackService
 		attr_accessor :notifier
-		def initialize(webhookurl:, channel:, username:)
-			@notifier = Slack::Notifier.new webhookurl do
-				defaults channel: channel,
-				username: username
+		def initialize
+
+			@notifier = Slack::Notifier.new ImmobilienScout.configuration.slack_hook_url do
+				defaults channel: ImmobilienScout.configuration.slack_channel,
+				username: ImmobilienScout.configuration.slack_username
 			end
 		end
 
