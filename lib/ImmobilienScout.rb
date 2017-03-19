@@ -1,9 +1,7 @@
 require 'ImmobilienScout/version'
 
 # Models
-require 'ImmobilienScout/models/listing'
 require 'ImmobilienScout/models/search_result'
-require 'ImmobilienScout/models/attribute'
 
 # Controllers
 require 'ImmobilienScout/controllers/client'

@@ -24,9 +24,8 @@ module ImmobilienScout
 
 		def search_results_for(url)
 			results = []
-			last_result = @actor_pool.fetch_result(url: url)
+			last_result = @actor_pool.future.fetch_result(url: url).value
 			results << last_result unless last_result.nil?
-
 
 			if last_result.nil? || last_result.next_page.nil?
 			else

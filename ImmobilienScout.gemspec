@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ImmobilienScout/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ImmobilienScout"
+  spec.name          = "immobilienscout"
   spec.version       = ImmobilienScout::VERSION
   spec.authors       = ["Max Kramer"]
   spec.email         = ["max@maxkramer.co"]
