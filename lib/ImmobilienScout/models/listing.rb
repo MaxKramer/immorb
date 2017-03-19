@@ -1,7 +1,6 @@
-require 'active_record'
-
 module ImmobilienScout
-	class Listing < ActiveRecord::Base
+	class Listing
+		attr_accessor :id
 		attr_accessor :title
 		attr_accessor :address
 		attr_accessor :district
@@ -18,7 +17,7 @@ module ImmobilienScout
 		attr_accessor :longitude
 
 		def fill_from(result)
-			self.id = result['id'].to_i
+			@id = result['id'].to_i
 			
 			@title = result['title']
 			@address = result['address']

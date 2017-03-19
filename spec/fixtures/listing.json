@@ -1,0 +1,56 @@
+{
+  "id": 93815596,
+  "cwid": "001.22352",
+  "shortlisted": false,
+  "privateOffer": false,
+  "title": "title",
+  "address": "address",
+  "district": "district",
+  "city": "city",
+  "zip": "zip",
+  "mediaCount": 2,
+  "galleryPictures": [
+    {
+      "url": "https://pic.immobilienscout24.de/pic/orig01/N/564/104/212/564104212-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+      "type": "STANDARD"
+    },
+    {
+      "url": "https://pic.immobilienscout24.de/pic/orig03/N/564/104/214/564104214-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+      "type": "STANDARD"
+    }
+  ],
+  "distanceInKm": 1,
+  "hasNewFlag": true,
+  "hasFloorplan": true,
+  "hasValuation": false,
+  "realtorLogoForResultlistUrl": "company_logo",
+  "realtorCompanyName": "company_name",
+  "contactName": "contact_name",
+  "referrer": [
+    "RESULT_LIST_LISTING"
+  ],
+  "attributes": [
+    {
+      "title": "Kaltmiete",
+      "value": "1 €"
+    },
+    {
+      "title": "Wohnfläche",
+      "value": "49 m²"
+    },
+    {
+      "title": "Zimmer",
+      "value": "2"
+    }
+  ],
+  "checkedAttributes": [
+    "Balkon/Terrasse",
+    "Einbauküche",
+    "Keller"
+  ],
+  "showAddress": true,
+  "latitude": 52.5,
+  "longitude": 13.4,
+  "listingSize": "l",
+  "similarResults": []
+}

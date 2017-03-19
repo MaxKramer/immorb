@@ -1,0 +1,524 @@
+{
+  "nextPage": "/foobarbaz",
+  "searchResult": {
+    "results": [
+      {
+        "id": 93815596,
+        "cwid": "001.22352",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "Wohnen im Bauhausstil.,,",
+        "address": "Sodtkestraße 34, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10409",
+        "mediaCount": 2,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig01/N/564/104/212/564104212-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          },
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig03/N/564/104/214/564104214-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.688,
+        "hasNewFlag": true,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "realtorLogoForResultlistUrl": "https://pic.immobilienscout24.de/pic/orig01/L/483/43/360/483043360-0.jpg/ORIG/resize/120x50%3E/quality/80",
+        "realtorCompanyName": "Deutsche Wohnen Gruppe",
+        "contactName": "Frau Susanne Holl",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "690,01 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "49,25 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Balkon/Terrasse",
+          "Einbauküche",
+          "Keller"
+        ],
+        "showAddress": true,
+        "latitude": 52.54724,
+        "longitude": 13.43423,
+        "listingSize": "l",
+        "similarResults": []
+      },
+      {
+        "id": 93855166,
+        "cwid": "001.351608",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "SONNTAG 13.20 UHR: Nahe Arnswalder Platz - zur teilgewerblichen Nutzung",
+        "address": "Hans-Otto-Straße 27, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10407",
+        "mediaCount": 4,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig04/N/564/688/23/564688023-0.png/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          },
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig03/N/564/687/714/564687714-0.png/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          },
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig03/N/564/687/718/564687718-0.png/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          },
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig01/N/564/687/720/564687720-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.366,
+        "hasNewFlag": true,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "realtorLogoForResultlistUrl": "https://pic.immobilienscout24.de/pic/orig04/L/449/909/447/449909447-0.png/ORIG/resize/120x50%3E/quality/80",
+        "realtorCompanyName": "KOMMINKIEZ - N. BOETTCHER IMMOBILIEN",
+        "contactName": " Dipl.-Ing.(FH) Niclas Boettcher",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "598 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "55 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [],
+        "idToHide": 91631838,
+        "showAddress": true,
+        "latitude": 52.53193,
+        "longitude": 13.43615,
+        "listingSize": "m",
+        "similarResults": []
+      },
+      {
+        "id": 93961157,
+        "cwid": "001.15857426",
+        "shortlisted": false,
+        "privateOffer": true,
+        "title": "Schöne Wohnung 2-Zimmer in Berlin, Prenzlauer Berg",
+        "address": "Immanuelkirchstr. 5, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10405",
+        "mediaCount": 7,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig02/N/565/872/37/565872037-0.png/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 0.553,
+        "hasNewFlag": true,
+        "hasFloorplan": false,
+        "hasValuation": false,
+        "contactName": "Herr Josef Bichler",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "650 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "56 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Balkon/Terrasse",
+          "Einbauküche",
+          "Keller",
+          "Aufzug"
+        ],
+        "showAddress": true,
+        "latitude": 52.5324,
+        "longitude": 13.42258,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 93846925,
+        "cwid": "002.01000732049",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "Erstbezug nach Sanierung im Prenzl´ Berg!",
+        "address": "Grellstr. 14, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10409",
+        "mediaCount": 5,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig02/N/566/961/465/566961465-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.296,
+        "hasNewFlag": true,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "realtorCompanyName": "Berlinhaus Verwaltung GmbH",
+        "contactName": " Kundenberatung",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "600 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "42,84 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [],
+        "showAddress": true,
+        "latitude": 52.54393,
+        "longitude": 13.43134,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 92736234,
+        "cwid": "002.01000732049",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "Wir sanieren für Sie im Prenz'l Berg!",
+        "address": "Grellstr. 14, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10409",
+        "mediaCount": 5,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig02/N/566/316/401/566316401-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.296,
+        "hasNewFlag": false,
+        "hasFloorplan": false,
+        "hasValuation": false,
+        "realtorCompanyName": "Berlinhaus Verwaltung GmbH",
+        "contactName": " Wohnen - Berlin",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "582 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "44,78 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [],
+        "idToHide": 90977641,
+        "showAddress": true,
+        "latitude": 52.54393,
+        "longitude": 13.43134,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 93819866,
+        "cwid": "001.22352",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "Super Schnitt - zentrale Lage!",
+        "address": "Gubitzstr. 6, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10409",
+        "mediaCount": 3,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig01/N/564/176/472/564176472-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.386,
+        "hasNewFlag": false,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "realtorLogoForResultlistUrl": "https://pic.immobilienscout24.de/pic/orig01/L/483/43/360/483043360-0.jpg/ORIG/resize/120x50%3E/quality/80",
+        "realtorCompanyName": "Deutsche Wohnen Gruppe",
+        "contactName": "Frau Brigitte Grasnick",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "550,58 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "50,62 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Balkon/Terrasse",
+          "Keller"
+        ],
+        "idToHide": 93301562,
+        "showAddress": true,
+        "latitude": 52.54416,
+        "longitude": 13.43278,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 94038745,
+        "cwid": "001.22352",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "Wohnen im Bauhausstil mit Blick auf den Fernsehturm.",
+        "address": "Lindenhoekweg 12, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10409",
+        "mediaCount": 4,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig04/N/566/809/647/566809647-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.693,
+        "hasNewFlag": true,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "realtorLogoForResultlistUrl": "https://pic.immobilienscout24.de/pic/orig01/L/483/43/360/483043360-0.jpg/ORIG/resize/120x50%3E/quality/80",
+        "realtorCompanyName": "Deutsche Wohnen Gruppe",
+        "contactName": "Frau Susanne Holl",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "651,93 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "49,77 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Balkon/Terrasse",
+          "Einbauküche",
+          "Keller"
+        ],
+        "showAddress": true,
+        "latitude": 52.54765,
+        "longitude": 13.43358,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 93895490,
+        "cwid": "009.cdbc8f5d-f262-482d-83ed-8a213ab11d87",
+        "shortlisted": false,
+        "privateOffer": true,
+        "title": "Schöne 2-Zimmer-Wohnung in Berlin-Mitte/Nordbahnhof",
+        "address": "Mitte (Mitte), Berlin",
+        "district": "Mitte (Mitte)",
+        "city": "Berlin",
+        "zip": "10115",
+        "mediaCount": 8,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig03/N/565/146/58/565146058-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.771,
+        "hasNewFlag": true,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "contactName": "Frau Hofmann",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "659,85 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "56,7 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Balkon/Terrasse",
+          "Einbauküche",
+          "Keller",
+          "Aufzug",
+          "WG-geeignet"
+        ],
+        "showAddress": false,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 93916403,
+        "cwid": "009.f7740c65-87e5-40c4-9e2c-3c61d459e5f4",
+        "shortlisted": false,
+        "privateOffer": true,
+        "title": "2-Zimmer Wohnung in Berlin, Prenzlauer Berg",
+        "address": "Schönhauser Allee 88, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10439",
+        "mediaCount": 8,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig02/N/565/389/217/565389217-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.812,
+        "hasNewFlag": true,
+        "hasFloorplan": false,
+        "hasValuation": false,
+        "contactName": "Frau Alexandra Stolz",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "660 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "46 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Balkon/Terrasse",
+          "Einbauküche",
+          "Keller"
+        ],
+        "showAddress": true,
+        "latitude": 52.55253,
+        "longitude": 13.41465,
+        "listingSize": "s",
+        "similarResults": []
+      },
+      {
+        "id": 93726755,
+        "cwid": "001.22352",
+        "shortlisted": false,
+        "privateOffer": false,
+        "title": "Freuen Sie sich auf Ihre neue Wohnung!",
+        "address": "Storkower Str. 53, Prenzlauer Berg (Prenzlauer Berg), Berlin",
+        "district": "Prenzlauer Berg (Prenzlauer Berg)",
+        "city": "Berlin",
+        "zip": "10409",
+        "mediaCount": 5,
+        "galleryPictures": [
+          {
+            "url": "https://pic.immobilienscout24.de/pic/orig01/N/562/941/504/562941504-0.jpg/ORIG/legacy_thumbnail/420x315/format/jpg/quality/80",
+            "type": "STANDARD"
+          }
+        ],
+        "distanceInKm": 1.905,
+        "hasNewFlag": false,
+        "hasFloorplan": true,
+        "hasValuation": false,
+        "realtorLogoForResultlistUrl": "https://pic.immobilienscout24.de/pic/orig01/L/483/43/360/483043360-0.jpg/ORIG/resize/120x50%3E/quality/80",
+        "realtorCompanyName": "Deutsche Wohnen Gruppe",
+        "contactName": "Frau Brigitte Grasnick",
+        "referrer": [
+          "RESULT_LIST_LISTING"
+        ],
+        "attributes": [
+          {
+            "title": "Kaltmiete",
+            "value": "456,62 €"
+          },
+          {
+            "title": "Wohnfläche",
+            "value": "47,28 m²"
+          },
+          {
+            "title": "Zimmer",
+            "value": "2"
+          }
+        ],
+        "checkedAttributes": [
+          "Keller"
+        ],
+        "showAddress": true,
+        "latitude": 52.53941,
+        "longitude": 13.44483,
+        "listingSize": "s",
+        "similarResults": []
+      }
+    ]
+  }
+}

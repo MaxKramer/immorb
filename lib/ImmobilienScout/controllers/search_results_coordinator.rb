@@ -5,59 +5,42 @@ module ImmobilienScout
 		include Celluloid
 
 		attr_accessor :search_urls
-		attr_accessor :finished_condition
-
-		attr_accessor :number_of_workers
-		attr_accessor :finished_workers
+		attr_accessor :actor_pool
+		attr_accessor :listings
 
 		def initialize(search_urls:)
 			@search_urls = search_urls
-			@number_of_workers = search_urls.count
-			@finished_workers = 0
-			@finished_condition = Celluloid::Condition.new
+			@actor_pool = ImmobilienScout::SearchResultsActor.pool(size: @search_urls.count)
+			@listings = []
 		end
 
 		def execute
-			listings = []
-			search_pool = ImmobilienScout::SearchResultsWorker.pool(size: @search_urls.count)
-			callback_block = lambda do |actor, result, fetched_listings, next_page|
-				@finished_workers += 1
-
-				listings.push(*fetched_listings) if result == true
-
-				if next_page
-					@number_of_workers += 1
-					search_pool.async.fetch_results(url: next_page, callback: callback_block)
-				end
-
-				if @finished_workers == @number_of_workers
-					@finished_condition.signal
-				end
-			end
-
 			@search_urls.each do |url|
-				search_pool.async.fetch_results(url: url, callback: callback_block)
+				results = search_results_for url
+				parse_results results
 			end
-
-			finished_condition.wait
-			insert_new_listings listings
+			@listings
 		end
 
-		def insert_new_listings(listings)
-			inserted_listings = []
-			existing_ids = Listing.all.pluck(:id)
-			listings.each do |listing|
-				unless existing_ids.include? listing['id'].to_i
-					obj = Listing.create
-					obj.fill_from listing
-					obj.save!
+		def search_results_for(url)
+			results = []
+			last_result = @actor_pool.fetch_result(url: url)
+			results << last_result unless last_result.nil?
 
-					existing_ids.push obj.id
-					inserted_listings.push obj
-				end
+
+			if last_result.nil? || last_result.next_page.nil?
+			else
+				next_results = search_results_for(last_result.next_page)
+				results.push(*next_results)
 			end
 
-			inserted_listings
+			results
+		end
+
+		def parse_results(results)
+			results.each do |result|
+				@listings.push(*result.listings) if result.listings.count > 0
+			end
 		end
 	end
 end	
